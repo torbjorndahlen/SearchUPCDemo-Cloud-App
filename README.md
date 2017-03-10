@@ -1,14 +1,25 @@
-# Search UPC Clud App
+# Search UPC Cloud App
 
-This Cloud App will call the SearchUPC MBaaS Service. 
+This Cloud App will call the SearchUPC MBaaS Service.
 
 # Group Hello World API
 
-# hello [/hello]
+# hello [/hello/recent/]
 
 'Hello world' endpoint.
 
-## hello [POST] 
+## hello [GET]
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+
+# hello [/hello/search/]
+
+'Hello world' endpoint.
+
+## hello [POST]
 
 'Hello world' endpoint.
 
