@@ -4,22 +4,26 @@ This Cloud App will call the SearchUPC MBaaS Service.
 
 # Group Hello World API
 
-# hello [/hello/recent/]
+# hello [/hello/recent]
 
 'Hello world' endpoint.
 
-## hello [GET]
+## hello/recent [GET]
 
 + Request (application/json)
 
 + Response 200 (application/json)
 
++ Body
+        [
+          "Array of recent barcode searches"
+        ]
 
-# hello [/hello/search/]
+# hello [/hello/search]
 
 'Hello world' endpoint.
 
-## hello [POST]
+## hello/search [POST]
 
 'Hello world' endpoint.
 
@@ -30,7 +34,7 @@ This Cloud App will call the SearchUPC MBaaS Service.
             }
 
 + Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
+  + Body
+        [
+          "Some product data goes here"
+        ]
