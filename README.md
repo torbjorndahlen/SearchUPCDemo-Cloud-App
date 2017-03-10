@@ -1,6 +1,6 @@
-# FeedHenry Hello World MBaaS Server
+# Search UPC Clud App
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+This Cloud App will call the SearchUPC MBaaS Service. 
 
 # Group Hello World API
 
@@ -15,7 +15,7 @@ This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for bu
 + Request (application/json)
     + Body
             {
-              "hello": "world"
+              "hello": "001000000502"
             }
 
 + Response 200 (application/json)
